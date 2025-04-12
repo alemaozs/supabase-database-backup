@@ -93,6 +93,9 @@ COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "
 00000000-0000-0000-0000-000000000000	36a3cc62-7bdd-4d0a-bda1-19b6c13c5e8c	{"action":"login","actor_id":"660f7c55-d756-4732-bdf9-d6a813b0fb97","actor_name":"dan sz","actor_username":"dan@6g6.com.br","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-11 06:12:15.511694+00	
 00000000-0000-0000-0000-000000000000	9dc24f4e-e121-4314-bb21-d08a24d82d60	{"action":"logout","actor_id":"660f7c55-d756-4732-bdf9-d6a813b0fb97","actor_name":"dan sz","actor_username":"dan@6g6.com.br","actor_via_sso":false,"log_type":"account"}	2025-04-11 06:14:57.303177+00	
 00000000-0000-0000-0000-000000000000	e5ff9ed0-b17a-4f9c-8a1d-294c598744c8	{"action":"login","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-11 06:15:11.866089+00	
+00000000-0000-0000-0000-000000000000	d0d2371a-422e-4b1b-864e-b247414b2d85	{"action":"login","actor_id":"a71577f4-81a8-4645-bb67-358bc7a17227","actor_name":"Marcos Abreu","actor_username":"marcosabreu@gmail.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-11 07:05:14.323782+00	
+00000000-0000-0000-0000-000000000000	3ace373d-8e12-4efc-9a43-4eaa2500d54e	{"action":"login","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-11 14:17:55.886259+00	
+00000000-0000-0000-0000-000000000000	df028aa0-00e7-46dc-b0e1-98a2857680e8	{"action":"logout","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"account"}	2025-04-11 14:23:47.921123+00	
 \.
 
 
@@ -118,9 +121,9 @@ COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_pas
 00000000-0000-0000-0000-000000000000	5087e342-b78f-45a5-b5b4-bda9e4407ac0	authenticated	authenticated	4463orange@ptct.net	$2a$10$Ixg9St077LgUdRY4I/KvZ.IK8KmD7s2AWmFSAiAjHDo6w14WsRhkm	2025-04-10 22:20:26.052982+00	\N		\N		\N			\N	\N	{"role": "student", "provider": "email", "providers": ["email"]}	{"full_name": "josiane souza camargo", "email_verified": true}	\N	2025-04-10 22:20:26.04468+00	2025-04-10 22:20:26.054026+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	73b0b4bb-d3c6-4ce4-ac4d-6794ae6a3f12	authenticated	authenticated	4463orangex@ptct.net	$2a$10$Mx9d1uuOCV5P71EM3ngd7.32MiJ5eqh24u2CO8EWNDbWJlPB2eoV2	2025-04-10 22:50:19.195483+00	\N		\N		\N			\N	\N	{"role": "student", "provider": "email", "providers": ["email"]}	{"full_name": "josiane souza cabral x", "email_verified": true}	\N	2025-04-10 22:50:19.188477+00	2025-04-10 22:50:19.196365+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	660f7c55-d756-4732-bdf9-d6a813b0fb97	authenticated	authenticated	dan@6g6.com.br	$2a$10$yqzmAIzm8hHwaHOpH8xQyegaAjnOpi3h3ZF9oDlmBiGaSuNhg7r9y	2025-04-11 06:11:54.519504+00	\N		\N		\N			\N	2025-04-11 06:12:15.512448+00	{"role": "student", "provider": "email", "providers": ["email"]}	{"full_name": "dan sz", "email_verified": true}	\N	2025-04-11 06:11:54.513252+00	2025-04-11 06:12:15.514991+00	\N	\N			\N		0	\N		\N	f	\N	f
-00000000-0000-0000-0000-000000000000	a71577f4-81a8-4645-bb67-358bc7a17227	authenticated	authenticated	marcosabreu@gmail.com	$2a$10$Q/TNi8m33.bSfeTrhWFjLOdkkTbjfDmiTANbcF1UeOocyKeYXEnYS	2025-04-11 02:53:01.5268+00	\N		\N		\N			\N	2025-04-11 05:20:00.737636+00	{"role": "student", "provider": "email", "providers": ["email"]}	{"full_name": "Marcos Abreu", "email_verified": true}	\N	2025-04-11 02:53:01.519067+00	2025-04-11 05:20:00.74094+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	5a4a0080-9ac3-42e2-a26e-7b7824771598	authenticated	authenticated	artthurgarcia24@gmail.com	$2a$10$.sWxU1P3DIcqCkUKYhOtAOkgQcfq4ocd8z62YNM9Yo95n7V4xH6T.	2025-04-11 03:42:21.470385+00	\N		\N		\N			\N	\N	{"role": "student", "provider": "email", "providers": ["email"]}	{"full_name": "Arthur Garcia", "email_verified": true}	\N	2025-04-11 03:42:21.465833+00	2025-04-11 03:42:21.471189+00	\N	\N			\N		0	\N		\N	f	\N	f
-00000000-0000-0000-0000-000000000000	00000000-0000-0000-0000-000000000001	authenticated	authenticated	admin@sistema.com	$2a$10$b/UvWx4USyLDYz3xDf2R3eukPSsTBSpnIPIRq1SB5csnCxC1F6aYi	2025-04-10 21:13:50.795186+00	\N		\N		\N			\N	2025-04-11 06:15:11.866884+00	{"role": "admin", "provider": "email", "providers": ["email"]}	{"full_name": "Admin Sistema", "email_verified": true}	\N	2025-04-10 21:13:50.76844+00	2025-04-11 06:15:11.869087+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	a71577f4-81a8-4645-bb67-358bc7a17227	authenticated	authenticated	marcosabreu@gmail.com	$2a$10$Q/TNi8m33.bSfeTrhWFjLOdkkTbjfDmiTANbcF1UeOocyKeYXEnYS	2025-04-11 02:53:01.5268+00	\N		\N		\N			\N	2025-04-11 07:05:14.325568+00	{"role": "student", "provider": "email", "providers": ["email"]}	{"full_name": "Marcos Abreu", "email_verified": true}	\N	2025-04-11 02:53:01.519067+00	2025-04-11 07:05:14.328739+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	00000000-0000-0000-0000-000000000001	authenticated	authenticated	admin@sistema.com	$2a$10$b/UvWx4USyLDYz3xDf2R3eukPSsTBSpnIPIRq1SB5csnCxC1F6aYi	2025-04-10 21:13:50.795186+00	\N		\N		\N			\N	2025-04-11 14:17:55.888752+00	{"role": "admin", "provider": "email", "providers": ["email"]}	{"full_name": "Admin Sistema", "email_verified": true}	\N	2025-04-10 21:13:50.76844+00	2025-04-11 14:17:55.896988+00	\N	\N			\N		0	\N		\N	f	\N	f
 \.
 
 
@@ -159,7 +162,7 @@ COPY "auth"."instances" ("id", "uuid", "raw_base_config", "created_at", "updated
 COPY "auth"."sessions" ("id", "user_id", "created_at", "updated_at", "factor_id", "aal", "not_after", "refreshed_at", "user_agent", "ip", "tag") FROM stdin;
 bb0622f9-8584-4fb3-a016-ec63ac68b8ee	3037c743-51d0-4e66-944d-4187789d529c	2025-04-10 22:36:27.544609+00	2025-04-10 22:36:27.544609+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N
 b7ef8a90-dda8-48f2-8a4c-3acb2afc5bda	3037c743-51d0-4e66-944d-4187789d529c	2025-04-10 22:38:10.826269+00	2025-04-10 22:38:10.826269+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N
-9b0358be-6dca-4f33-ab74-0f451ef2a272	00000000-0000-0000-0000-000000000001	2025-04-11 06:15:11.866962+00	2025-04-11 06:15:11.866962+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N
+3662fb20-4680-4c3f-b16d-eb66fa26e5a6	a71577f4-81a8-4645-bb67-358bc7a17227	2025-04-11 07:05:14.325653+00	2025-04-11 07:05:14.325653+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	200.185.247.41	\N
 \.
 
 
@@ -170,7 +173,7 @@ b7ef8a90-dda8-48f2-8a4c-3acb2afc5bda	3037c743-51d0-4e66-944d-4187789d529c	2025-0
 COPY "auth"."mfa_amr_claims" ("session_id", "created_at", "updated_at", "authentication_method", "id") FROM stdin;
 bb0622f9-8584-4fb3-a016-ec63ac68b8ee	2025-04-10 22:36:27.547814+00	2025-04-10 22:36:27.547814+00	password	d7d84449-2009-4dfe-924b-59bd176d178b
 b7ef8a90-dda8-48f2-8a4c-3acb2afc5bda	2025-04-10 22:38:10.829494+00	2025-04-10 22:38:10.829494+00	password	bbabd94e-b239-4221-adb8-49ee58456088
-9b0358be-6dca-4f33-ab74-0f451ef2a272	2025-04-11 06:15:11.869679+00	2025-04-11 06:15:11.869679+00	password	c7c3c4e7-cff8-494f-b9d8-b6b8580421d8
+3662fb20-4680-4c3f-b16d-eb66fa26e5a6	2025-04-11 07:05:14.329373+00	2025-04-11 07:05:14.329373+00	password	eeb9021c-b936-482d-a8a7-11547fe38837
 \.
 
 
@@ -205,7 +208,7 @@ COPY "auth"."one_time_tokens" ("id", "user_id", "token_type", "token_hash", "rel
 COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked", "created_at", "updated_at", "parent", "session_id") FROM stdin;
 00000000-0000-0000-0000-000000000000	6	5oHXeQU6nxJAMT0PcEVJTg	3037c743-51d0-4e66-944d-4187789d529c	f	2025-04-10 22:36:27.545878+00	2025-04-10 22:36:27.545878+00	\N	bb0622f9-8584-4fb3-a016-ec63ac68b8ee
 00000000-0000-0000-0000-000000000000	7	UhW0bLpz-fYieOE255zeWw	3037c743-51d0-4e66-944d-4187789d529c	f	2025-04-10 22:38:10.827494+00	2025-04-10 22:38:10.827494+00	\N	b7ef8a90-dda8-48f2-8a4c-3acb2afc5bda
-00000000-0000-0000-0000-000000000000	33	Nf-Tn09blnVegmaia2324Q	00000000-0000-0000-0000-000000000001	f	2025-04-11 06:15:11.867969+00	2025-04-11 06:15:11.867969+00	\N	9b0358be-6dca-4f33-ab74-0f451ef2a272
+00000000-0000-0000-0000-000000000000	34	2WqsOAebAfupEupInN6zXw	a71577f4-81a8-4645-bb67-358bc7a17227	f	2025-04-11 07:05:14.326839+00	2025-04-11 07:05:14.326839+00	\N	3662fb20-4680-4c3f-b16d-eb66fa26e5a6
 \.
 
 
@@ -399,7 +402,7 @@ COPY "vault"."secrets" ("id", "name", "description", "secret", "key_id", "nonce"
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 33, true);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 35, true);
 
 
 --
