@@ -140,6 +140,19 @@ COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "
 00000000-0000-0000-0000-000000000000	c479c729-d91f-4b4e-9e2e-4988719f572f	{"action":"login","actor_id":"d3eeebf8-2d13-4f36-9102-f66b127eaab4","actor_name":"gabriela fretisa","actor_username":"gabrielafreits@gmail.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 01:37:42.858658+00	
 00000000-0000-0000-0000-000000000000	64e4c8e3-74b2-441b-9ff0-2840f5f72d3d	{"action":"user_signedup","actor_id":"00000000-0000-0000-0000-000000000000","actor_username":"service_role","actor_via_sso":false,"log_type":"team","traits":{"user_email":"artobafio@tuamaeaquelaursa.com","user_id":"50727bff-5de6-4390-afe9-b7b0e31be52e","user_phone":""}}	2025-04-19 01:37:51.269315+00	
 00000000-0000-0000-0000-000000000000	1ba54a86-2eef-46ee-b003-1f6e6486b71f	{"action":"login","actor_id":"50727bff-5de6-4390-afe9-b7b0e31be52e","actor_name":"artoba fio","actor_username":"artobafio@tuamaeaquelaursa.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 01:37:51.511361+00	
+00000000-0000-0000-0000-000000000000	89ac4d58-dcb1-4b2a-831b-802af90ce7a2	{"action":"login","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 04:13:24.881395+00	
+00000000-0000-0000-0000-000000000000	a8e45b8a-3c97-4261-8554-260fd4d07ffa	{"action":"login","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 05:01:20.484587+00	
+00000000-0000-0000-0000-000000000000	c30f09bc-c7ee-4e93-a4e7-febe811c85e1	{"action":"login","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 05:30:07.675213+00	
+00000000-0000-0000-0000-000000000000	d3a9ac71-8e2a-46ea-b5bc-6f2d7d5d6b62	{"action":"login","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 05:31:45.719775+00	
+00000000-0000-0000-0000-000000000000	d9336f5d-8d98-42b0-83ca-7d921e225114	{"action":"login","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 05:44:49.009298+00	
+00000000-0000-0000-0000-000000000000	a2f33259-722e-4513-a066-ad04128bed96	{"action":"login","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 05:46:00.047872+00	
+00000000-0000-0000-0000-000000000000	d833b742-c9bb-404d-901b-da43dcfee580	{"action":"token_refreshed","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"token"}	2025-04-19 05:59:48.581241+00	
+00000000-0000-0000-0000-000000000000	d1f6792f-d792-42a5-8e39-cf0e4df4e65f	{"action":"token_revoked","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"token"}	2025-04-19 05:59:48.589309+00	
+00000000-0000-0000-0000-000000000000	05efd07a-e9e8-4c53-aa8a-7ba02de36619	{"action":"login","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 06:04:54.573749+00	
+00000000-0000-0000-0000-000000000000	f79fd50b-773b-4bce-bdde-5d92baddef44	{"action":"login","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 14:48:00.060734+00	
+00000000-0000-0000-0000-000000000000	e25e0ea3-094e-41e6-943d-473cf32362c2	{"action":"user_signedup","actor_id":"00000000-0000-0000-0000-000000000000","actor_username":"service_role","actor_via_sso":false,"log_type":"team","traits":{"user_email":"gabrielmonteiro@gmail.com","user_id":"44cbf295-1ebd-4fb6-bff6-f038588f0523","user_phone":""}}	2025-04-19 15:16:08.274497+00	
+00000000-0000-0000-0000-000000000000	2f4c03a4-f0e7-4c31-83fa-a8f0497f95a3	{"action":"login","actor_id":"44cbf295-1ebd-4fb6-bff6-f038588f0523","actor_name":"gabriel monteiro","actor_username":"gabrielmonteiro@gmail.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 15:16:08.602008+00	
+00000000-0000-0000-0000-000000000000	20ea4579-d1a4-4058-b191-1a7e77bb2da6	{"action":"login","actor_id":"44cbf295-1ebd-4fb6-bff6-f038588f0523","actor_name":"gabriel monteiro","actor_username":"gabrielmonteiro@gmail.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2025-04-19 15:22:07.749711+00	
 \.
 
 
@@ -171,10 +184,11 @@ COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_pas
 00000000-0000-0000-0000-000000000000	5a4a0080-9ac3-42e2-a26e-7b7824771598	authenticated	authenticated	artthurgarcia24@gmail.com	$2a$10$.sWxU1P3DIcqCkUKYhOtAOkgQcfq4ocd8z62YNM9Yo95n7V4xH6T.	2025-04-11 03:42:21.470385+00	\N		\N		\N			\N	\N	{"role": "student", "provider": "email", "providers": ["email"]}	{"full_name": "Arthur Garcia", "email_verified": true}	\N	2025-04-11 03:42:21.465833+00	2025-04-11 03:42:21.471189+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	8bcc430c-6af1-4958-b406-18d189494546	authenticated	authenticated	daniela-pedroza@tuamaeaquelaursa.com	$2a$10$peBpov5kWEkEh7JZD/QTr.YRCXmmJ9X6Sb1xKw0CrQ6cjsmd45P.e	2025-04-18 04:35:49.303948+00	\N		\N		\N			\N	2025-04-18 04:35:49.518967+00	{"role": "student", "provider": "email", "providers": ["email"]}	{"phone": "11947765478", "full_name": "daniela pedroza", "email_verified": true}	\N	2025-04-18 04:35:49.285004+00	2025-04-18 04:35:49.524898+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	7c8f8066-c786-4d5c-8d19-f49966f58a8c	authenticated	authenticated	emiliocabral@tuamaeaquelaursa.com	$2a$10$5mYqUKg0YUX/ByY7tK.EA.Dsie1R8ZUGdo2M09Njs4gFUXo0CFN7y	2025-04-18 18:10:31.673054+00	\N		\N		\N			\N	2025-04-18 18:10:31.967928+00	{"role": "student", "provider": "email", "providers": ["email"]}	{"phone": "19978854875", "full_name": "emilio cabral", "email_verified": true}	\N	2025-04-18 18:10:31.663807+00	2025-04-18 18:10:31.972949+00	\N	\N			\N		0	\N		\N	f	\N	f
-00000000-0000-0000-0000-000000000000	00000000-0000-0000-0000-000000000001	authenticated	authenticated	admin@sistema.com	$2a$10$b/UvWx4USyLDYz3xDf2R3eukPSsTBSpnIPIRq1SB5csnCxC1F6aYi	2025-04-10 21:13:50.795186+00	\N		\N		\N			\N	2025-04-19 00:06:52.062556+00	{"role": "admin", "provider": "email", "providers": ["email"]}	{"full_name": "Admin Sistema", "email_verified": true}	\N	2025-04-10 21:13:50.76844+00	2025-04-19 00:06:52.070891+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	00000000-0000-0000-0000-000000000001	authenticated	authenticated	admin@sistema.com	$2a$10$b/UvWx4USyLDYz3xDf2R3eukPSsTBSpnIPIRq1SB5csnCxC1F6aYi	2025-04-10 21:13:50.795186+00	\N		\N		\N			\N	2025-04-19 14:48:00.083209+00	{"role": "admin", "provider": "email", "providers": ["email"]}	{"full_name": "Admin Sistema", "email_verified": true}	\N	2025-04-10 21:13:50.76844+00	2025-04-19 14:48:00.112964+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	0740b370-aed7-4bd6-a59c-8f1af4d628b0	authenticated	authenticated	admin@mc.com	$2a$10$F6jOCnwlyhwhQ9N4tBJp5.gnHPu.MsctVelWqf1733Glq8cxnGRd.	2025-04-18 17:24:36.114303+00	\N		\N		\N			\N	2025-04-18 17:24:36.474829+00	{"role": "student", "provider": "email", "providers": ["email"]}	{"phone": "5356766655", "full_name": "MARCELO RAMOS DA SILVA", "email_verified": true}	\N	2025-04-18 17:24:36.047413+00	2025-04-18 17:24:36.509341+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	d3eeebf8-2d13-4f36-9102-f66b127eaab4	authenticated	authenticated	gabrielafreits@gmail.com	$2a$10$PUJ03OlMlc2WBq1zic0QzOcq9z7EskKDuWXgY30iG1uWyTCjal8JS	2025-04-19 01:37:42.611848+00	\N		\N		\N			\N	2025-04-19 01:37:42.859332+00	{"role": "student", "provider": "email", "providers": ["email"]}	{"phone": "119855485632", "full_name": "gabriela fretisa", "email_verified": true}	\N	2025-04-19 01:37:42.603146+00	2025-04-19 01:37:42.866191+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	50727bff-5de6-4390-afe9-b7b0e31be52e	authenticated	authenticated	artobafio@tuamaeaquelaursa.com	$2a$10$qfwm7ISeUII4GISMzP/6fObk04vJWfQ/dHGu3FwXUZRG/IiRn1SBC	2025-04-19 01:37:51.273216+00	\N		\N		\N			\N	2025-04-19 01:37:51.512053+00	{"role": "student", "provider": "email", "providers": ["email"]}	{"phone": "17997977126", "full_name": "artoba fio", "email_verified": true}	\N	2025-04-19 01:37:51.265599+00	2025-04-19 01:37:51.515172+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	44cbf295-1ebd-4fb6-bff6-f038588f0523	authenticated	authenticated	gabrielmonteiro@gmail.com	$2a$10$4shjN.7SMAQ1XyYKheWscuPBcpGZsNLFJBtkBL5GvU3vspp9/L/qq	2025-04-19 15:16:08.288117+00	\N		\N		\N			\N	2025-04-19 15:22:07.753856+00	{"role": "student", "provider": "email", "providers": ["email"]}	{"phone": "119478852032", "full_name": "gabriel monteiro", "email_verified": true}	\N	2025-04-19 15:16:08.244914+00	2025-04-19 15:22:07.75996+00	\N	\N			\N		0	\N		\N	f	\N	f
 \.
 
 
@@ -202,6 +216,7 @@ f9f492a7-c906-458e-981c-e17b6fe811a9	f9f492a7-c906-458e-981c-e17b6fe811a9	{"sub"
 49fe2dff-9e9d-47d9-9650-9555a5d06af8	49fe2dff-9e9d-47d9-9650-9555a5d06af8	{"sub": "49fe2dff-9e9d-47d9-9650-9555a5d06af8", "email": "ballenafreitas@gmail.com", "email_verified": false, "phone_verified": false}	email	2025-04-19 00:37:57.581482+00	2025-04-19 00:37:57.581558+00	2025-04-19 00:37:57.581558+00	43a74962-8ece-48c7-964c-a12697c3dfd1
 d3eeebf8-2d13-4f36-9102-f66b127eaab4	d3eeebf8-2d13-4f36-9102-f66b127eaab4	{"sub": "d3eeebf8-2d13-4f36-9102-f66b127eaab4", "email": "gabrielafreits@gmail.com", "email_verified": false, "phone_verified": false}	email	2025-04-19 01:37:42.607025+00	2025-04-19 01:37:42.607078+00	2025-04-19 01:37:42.607078+00	5e900dac-011f-4fea-aeb3-d28f219b9c3a
 50727bff-5de6-4390-afe9-b7b0e31be52e	50727bff-5de6-4390-afe9-b7b0e31be52e	{"sub": "50727bff-5de6-4390-afe9-b7b0e31be52e", "email": "artobafio@tuamaeaquelaursa.com", "email_verified": false, "phone_verified": false}	email	2025-04-19 01:37:51.26771+00	2025-04-19 01:37:51.267765+00	2025-04-19 01:37:51.267765+00	50d6e128-7424-4834-9a02-75771ed481d3
+44cbf295-1ebd-4fb6-bff6-f038588f0523	44cbf295-1ebd-4fb6-bff6-f038588f0523	{"sub": "44cbf295-1ebd-4fb6-bff6-f038588f0523", "email": "gabrielmonteiro@gmail.com", "email_verified": false, "phone_verified": false}	email	2025-04-19 15:16:08.265721+00	2025-04-19 15:16:08.266491+00	2025-04-19 15:16:08.266491+00	973c8ccf-49b3-4cca-9cbf-bdc83a1a1a86
 \.
 
 
@@ -221,8 +236,18 @@ COPY "auth"."sessions" ("id", "user_id", "created_at", "updated_at", "factor_id"
 d777e5ca-224a-40d7-8db5-61d5b2c16a73	49fe2dff-9e9d-47d9-9650-9555a5d06af8	2025-04-19 00:37:57.846311+00	2025-04-19 00:37:57.846311+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
 20674af5-946f-48cb-a08b-31f75ffb6fcb	d3eeebf8-2d13-4f36-9102-f66b127eaab4	2025-04-19 01:37:42.859401+00	2025-04-19 01:37:42.859401+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
 948c03c3-6843-41f1-9642-65bf0c770cb5	50727bff-5de6-4390-afe9-b7b0e31be52e	2025-04-19 01:37:51.512132+00	2025-04-19 01:37:51.512132+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N
+575ea202-a760-4a91-ae2a-6629a01ecf7d	00000000-0000-0000-0000-000000000001	2025-04-19 04:13:24.89354+00	2025-04-19 04:13:24.89354+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
 bb0622f9-8584-4fb3-a016-ec63ac68b8ee	3037c743-51d0-4e66-944d-4187789d529c	2025-04-10 22:36:27.544609+00	2025-04-10 22:36:27.544609+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N
 b7ef8a90-dda8-48f2-8a4c-3acb2afc5bda	3037c743-51d0-4e66-944d-4187789d529c	2025-04-10 22:38:10.826269+00	2025-04-10 22:38:10.826269+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N
+3099f869-8b8d-4672-ac35-24858e25e0ae	00000000-0000-0000-0000-000000000001	2025-04-19 05:30:07.683202+00	2025-04-19 05:30:07.683202+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
+220a777e-bede-4e6e-a17c-ef8d9ab61be3	00000000-0000-0000-0000-000000000001	2025-04-19 05:31:45.720846+00	2025-04-19 05:31:45.720846+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
+f91d1e32-5f3b-4965-84d4-7dfccd28051b	00000000-0000-0000-0000-000000000001	2025-04-19 05:44:49.018025+00	2025-04-19 05:44:49.018025+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
+761804b9-a6f7-41ce-9944-192af8d3529e	00000000-0000-0000-0000-000000000001	2025-04-19 05:46:00.049056+00	2025-04-19 05:46:00.049056+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
+0ad803f1-5bcf-4035-8659-66cd73f12a8f	00000000-0000-0000-0000-000000000001	2025-04-19 05:01:20.491393+00	2025-04-19 05:59:48.608219+00	\N	aal1	\N	2025-04-19 05:59:48.608123	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
+d06bf833-593e-474c-9cd3-4578a25f0d9e	00000000-0000-0000-0000-000000000001	2025-04-19 06:04:54.578468+00	2025-04-19 06:04:54.578468+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
+76ea9348-9054-4915-bb4a-54b2ba710767	00000000-0000-0000-0000-000000000001	2025-04-19 14:48:00.083795+00	2025-04-19 14:48:00.083795+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N
+856ea23b-a819-45c3-a12e-bde35865ee47	44cbf295-1ebd-4fb6-bff6-f038588f0523	2025-04-19 15:16:08.602818+00	2025-04-19 15:16:08.602818+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
+6d04833f-5c78-4c4c-9a03-881bf82b3f74	44cbf295-1ebd-4fb6-bff6-f038588f0523	2025-04-19 15:22:07.753946+00	2025-04-19 15:22:07.753946+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
 a911a3ff-27bd-4391-962c-19f862cf790d	f9f492a7-c906-458e-981c-e17b6fe811a9	2025-04-18 04:37:13.777099+00	2025-04-18 04:37:13.777099+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	200.185.247.41	\N
 0d7e3108-55bf-44cb-b43e-76a3e64245e6	0740b370-aed7-4bd6-a59c-8f1af4d628b0	2025-04-18 17:24:36.474906+00	2025-04-18 17:24:36.474906+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
 20887685-87a6-4ae8-a76a-67e6a5ace16b	7c8f8066-c786-4d5c-8d19-f49966f58a8c	2025-04-18 18:10:31.968005+00	2025-04-18 18:10:31.968005+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
@@ -242,6 +267,16 @@ a911a3ff-27bd-4391-962c-19f862cf790d	2025-04-18 04:37:13.779136+00	2025-04-18 04
 d777e5ca-224a-40d7-8db5-61d5b2c16a73	2025-04-19 00:37:57.851935+00	2025-04-19 00:37:57.851935+00	password	a13bfe71-cb73-40cb-88ec-dc3d4adde4fa
 20674af5-946f-48cb-a08b-31f75ffb6fcb	2025-04-19 01:37:42.866695+00	2025-04-19 01:37:42.866695+00	password	83a679eb-39ee-4f2e-bbc2-26b4b9cf5645
 948c03c3-6843-41f1-9642-65bf0c770cb5	2025-04-19 01:37:51.515494+00	2025-04-19 01:37:51.515494+00	password	d1b80af8-119e-46b9-a5bb-ef7285aa0300
+575ea202-a760-4a91-ae2a-6629a01ecf7d	2025-04-19 04:13:24.905284+00	2025-04-19 04:13:24.905284+00	password	55ffcf92-503c-4e36-bb6f-93be98d2cc66
+0ad803f1-5bcf-4035-8659-66cd73f12a8f	2025-04-19 05:01:20.498418+00	2025-04-19 05:01:20.498418+00	password	b3319626-c7e8-4825-956f-29decb4f8857
+3099f869-8b8d-4672-ac35-24858e25e0ae	2025-04-19 05:30:07.701584+00	2025-04-19 05:30:07.701584+00	password	d60aea7f-8af3-4545-84af-8f2a4f70cf0d
+220a777e-bede-4e6e-a17c-ef8d9ab61be3	2025-04-19 05:31:45.726118+00	2025-04-19 05:31:45.726118+00	password	5acc55b3-15b5-443e-a534-aef17184cc47
+f91d1e32-5f3b-4965-84d4-7dfccd28051b	2025-04-19 05:44:49.027451+00	2025-04-19 05:44:49.027451+00	password	ac42eb79-1b1b-4cce-85d7-65c4326f358d
+761804b9-a6f7-41ce-9944-192af8d3529e	2025-04-19 05:46:00.0555+00	2025-04-19 05:46:00.0555+00	password	4ce8a84d-401b-42fd-bd0c-4280f42f8b9c
+d06bf833-593e-474c-9cd3-4578a25f0d9e	2025-04-19 06:04:54.583713+00	2025-04-19 06:04:54.583713+00	password	512227d2-d344-47fd-9917-b8c6407d6ade
+76ea9348-9054-4915-bb4a-54b2ba710767	2025-04-19 14:48:00.115733+00	2025-04-19 14:48:00.115733+00	password	13ef5b5e-d36e-4ffa-ba46-052a1f23a567
+856ea23b-a819-45c3-a12e-bde35865ee47	2025-04-19 15:16:08.612155+00	2025-04-19 15:16:08.612155+00	password	a1466c9c-aae8-4450-bf05-22dfb5128cff
+6d04833f-5c78-4c4c-9a03-881bf82b3f74	2025-04-19 15:22:07.760754+00	2025-04-19 15:22:07.760754+00	password	a518d476-7851-4de4-b87d-49ec79dd2b16
 \.
 
 
@@ -277,8 +312,19 @@ COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked"
 00000000-0000-0000-0000-000000000000	61	RYxW1SA5C469nCrUXbROig	49fe2dff-9e9d-47d9-9650-9555a5d06af8	f	2025-04-19 00:37:57.848353+00	2025-04-19 00:37:57.848353+00	\N	d777e5ca-224a-40d7-8db5-61d5b2c16a73
 00000000-0000-0000-0000-000000000000	62	zw2SgYSkawIEYjUbDqt1Yg	d3eeebf8-2d13-4f36-9102-f66b127eaab4	f	2025-04-19 01:37:42.864735+00	2025-04-19 01:37:42.864735+00	\N	20674af5-946f-48cb-a08b-31f75ffb6fcb
 00000000-0000-0000-0000-000000000000	63	leHCZkUytk0VJl8H8joxEQ	50727bff-5de6-4390-afe9-b7b0e31be52e	f	2025-04-19 01:37:51.514209+00	2025-04-19 01:37:51.514209+00	\N	948c03c3-6843-41f1-9642-65bf0c770cb5
+00000000-0000-0000-0000-000000000000	64	qJRgRN1gBfEd-vzzgr2_DA	00000000-0000-0000-0000-000000000001	f	2025-04-19 04:13:24.898342+00	2025-04-19 04:13:24.898342+00	\N	575ea202-a760-4a91-ae2a-6629a01ecf7d
 00000000-0000-0000-0000-000000000000	6	5oHXeQU6nxJAMT0PcEVJTg	3037c743-51d0-4e66-944d-4187789d529c	f	2025-04-10 22:36:27.545878+00	2025-04-10 22:36:27.545878+00	\N	bb0622f9-8584-4fb3-a016-ec63ac68b8ee
 00000000-0000-0000-0000-000000000000	7	UhW0bLpz-fYieOE255zeWw	3037c743-51d0-4e66-944d-4187789d529c	f	2025-04-10 22:38:10.827494+00	2025-04-10 22:38:10.827494+00	\N	b7ef8a90-dda8-48f2-8a4c-3acb2afc5bda
+00000000-0000-0000-0000-000000000000	66	Z5gA0JBVNltL6Q8mlssdvQ	00000000-0000-0000-0000-000000000001	f	2025-04-19 05:30:07.688584+00	2025-04-19 05:30:07.688584+00	\N	3099f869-8b8d-4672-ac35-24858e25e0ae
+00000000-0000-0000-0000-000000000000	67	ROTE6gYotld67hc0_5vtxg	00000000-0000-0000-0000-000000000001	f	2025-04-19 05:31:45.722245+00	2025-04-19 05:31:45.722245+00	\N	220a777e-bede-4e6e-a17c-ef8d9ab61be3
+00000000-0000-0000-0000-000000000000	68	4avpLddSQewzQ2O3W5XkkA	00000000-0000-0000-0000-000000000001	f	2025-04-19 05:44:49.021669+00	2025-04-19 05:44:49.021669+00	\N	f91d1e32-5f3b-4965-84d4-7dfccd28051b
+00000000-0000-0000-0000-000000000000	69	uqfWOGZ523qXGrMXEXGuUA	00000000-0000-0000-0000-000000000001	f	2025-04-19 05:46:00.050383+00	2025-04-19 05:46:00.050383+00	\N	761804b9-a6f7-41ce-9944-192af8d3529e
+00000000-0000-0000-0000-000000000000	65	bAZTCicb_8kDM2npqk2HPw	00000000-0000-0000-0000-000000000001	t	2025-04-19 05:01:20.494537+00	2025-04-19 05:59:48.595096+00	\N	0ad803f1-5bcf-4035-8659-66cd73f12a8f
+00000000-0000-0000-0000-000000000000	70	uGG1hpf_sFfnNYmZz064sw	00000000-0000-0000-0000-000000000001	f	2025-04-19 05:59:48.599244+00	2025-04-19 05:59:48.599244+00	bAZTCicb_8kDM2npqk2HPw	0ad803f1-5bcf-4035-8659-66cd73f12a8f
+00000000-0000-0000-0000-000000000000	71	6TFyFFI2otb1rapFfuSR4A	00000000-0000-0000-0000-000000000001	f	2025-04-19 06:04:54.580938+00	2025-04-19 06:04:54.580938+00	\N	d06bf833-593e-474c-9cd3-4578a25f0d9e
+00000000-0000-0000-0000-000000000000	72	e8dkDPkRvZRqojZPJfMRIA	00000000-0000-0000-0000-000000000001	f	2025-04-19 14:48:00.094544+00	2025-04-19 14:48:00.094544+00	\N	76ea9348-9054-4915-bb4a-54b2ba710767
+00000000-0000-0000-0000-000000000000	73	XR4t9gmDuZVcZDAqCZUitw	44cbf295-1ebd-4fb6-bff6-f038588f0523	f	2025-04-19 15:16:08.606955+00	2025-04-19 15:16:08.606955+00	\N	856ea23b-a819-45c3-a12e-bde35865ee47
+00000000-0000-0000-0000-000000000000	74	VKQV0fhj-7SaSmk-oT2uIQ	44cbf295-1ebd-4fb6-bff6-f038588f0523	f	2025-04-19 15:22:07.755793+00	2025-04-19 15:22:07.755793+00	\N	6d04833f-5c78-4c4c-9a03-881bf82b3f74
 00000000-0000-0000-0000-000000000000	45	aNEP3Ed9C66nM2EMrn0fJA	f9f492a7-c906-458e-981c-e17b6fe811a9	f	2025-04-18 04:37:13.777867+00	2025-04-18 04:37:13.777867+00	\N	a911a3ff-27bd-4391-962c-19f862cf790d
 00000000-0000-0000-0000-000000000000	49	ax5eV9Fx2PKdYUajGN9TLg	0740b370-aed7-4bd6-a59c-8f1af4d628b0	f	2025-04-18 17:24:36.486716+00	2025-04-18 17:24:36.486716+00	\N	0d7e3108-55bf-44cb-b43e-76a3e64245e6
 00000000-0000-0000-0000-000000000000	50	FuWv67_LAa2EG5zrcnetHw	7c8f8066-c786-4d5c-8d19-f49966f58a8c	f	2025-04-18 18:10:31.969698+00	2025-04-18 18:10:31.969698+00	\N	20887685-87a6-4ae8-a76a-67e6a5ace16b
@@ -346,13 +392,46 @@ COPY "public"."conversation_participants" ("conversation_id", "user_id", "joined
 -- Data for Name: courses; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."courses" ("id", "name", "payment_link", "is_active", "created_at", "updated_at") FROM stdin;
-43a5e583-cba7-4d56-886f-cf550a37a3fe	Ensino Fundamental	\N	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00
-aa8cf527-51ce-4ce0-bd2e-3b523b85b064	Ensino Médio	\N	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00
-cec778be-59cc-440d-a56a-ca257b2632f0	EJA - Educação de Jovens e Adultos	\N	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00
-22258ace-9312-44ce-9019-8e46eb5fb746	Técnico em Administração	\N	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00
-8ed6f100-0550-4c60-9ef9-44e67f6e7e4d	Técnico em Informática	\N	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00
-d3e7dde9-c0a7-4613-a913-bfe421242be6	Teste	teste.com.br	t	2025-04-10 22:24:38.879492+00	2025-04-10 22:29:09.867058+00
+COPY "public"."courses" ("id", "name", "payment_link", "is_active", "created_at", "updated_at", "description", "price", "duration") FROM stdin;
+43a5e583-cba7-4d56-886f-cf550a37a3fe	Ensino Fundamental	\N	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00	\N	0	\N
+aa8cf527-51ce-4ce0-bd2e-3b523b85b064	Ensino Médio	\N	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00	\N	0	\N
+cec778be-59cc-440d-a56a-ca257b2632f0	EJA - Educação de Jovens e Adultos	\N	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00	\N	0	\N
+22258ace-9312-44ce-9019-8e46eb5fb746	Técnico em Administração	\N	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00	\N	0	\N
+8ed6f100-0550-4c60-9ef9-44e67f6e7e4d	Técnico em Informática	\N	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00	\N	0	\N
+d3e7dde9-c0a7-4613-a913-bfe421242be6	Teste	teste.com.br	t	2025-04-10 22:24:38.879492+00	2025-04-10 22:29:09.867058+00	\N	0	\N
+\.
+
+
+--
+-- Data for Name: deletion_requests; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."deletion_requests" ("id", "user_id", "status", "requested_at", "processed_at", "processed_by", "notes") FROM stdin;
+\.
+
+
+--
+-- Data for Name: required_documents; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."required_documents" ("id", "name", "is_required", "is_active", "created_at", "updated_at", "document_type_category", "validation_rules", "description") FROM stdin;
+f02db3bc-a03e-4eea-847b-a4104a20cb95	RG	t	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00	identity	{}	\N
+7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	CPF	t	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00	identity	{}	\N
+6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	Comprovante de Residência	t	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00	identity	{}	\N
+a198457e-3315-4c35-8266-6a0186240100	Histórico Escolar	t	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00	identity	{}	\N
+3be7e852-88a3-4520-a11d-3a1bc6787af6	Foto 3x4	t	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00	identity	{}	\N
+8bade787-186d-48a7-9e66-4d5487561f15	CNH	t	t	2025-04-19 01:53:59.144556+00	2025-04-19 01:53:59.144556+00	identity	{}	Carteira Nacional de Habilitação
+e27c26a8-1514-4655-a097-ce2cd224fa4b	Passaporte	f	t	2025-04-19 01:53:59.144556+00	2025-04-19 01:53:59.144556+00	identity	{}	Passaporte brasileiro ou estrangeiro
+245121c2-ac20-44f6-860e-96e62ae04e59	Comprovante de Residência	t	t	2025-04-19 01:53:59.144556+00	2025-04-19 01:53:59.144556+00	proof	{}	Documento que comprove endereço residencial
+b45fa34d-4dbb-4f27-b5ef-3bf18d53b632	Certidão de Nascimento	f	t	2025-04-19 01:53:59.144556+00	2025-04-19 01:53:59.144556+00	identity	{}	Certidão de Nascimento
+\.
+
+
+--
+-- Data for Name: document_validation_config; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."document_validation_config" ("id", "document_type_id", "min_confidence", "required_fields", "validation_checks", "created_at", "updated_at") FROM stdin;
 \.
 
 
@@ -360,18 +439,19 @@ d3e7dde9-c0a7-4613-a913-bfe421242be6	Teste	teste.com.br	t	2025-04-10 22:24:38.87
 -- Data for Name: enrollments; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."enrollments" ("id", "student_id", "course_id", "full_name", "email", "phone", "status", "created_at", "updated_at") FROM stdin;
-bc123317-ab59-4cb8-8fce-a76775a1ddbe	\N	22258ace-9312-44ce-9019-8e46eb5fb746	josiane souza cabral x	4463orangex@gmail.com	19997988222	pending	2025-04-10 22:50:46.3407+00	2025-04-10 22:50:46.3407+00
-62f68681-6357-42cf-8909-7973f723746f	\N	aa8cf527-51ce-4ce0-bd2e-3b523b85b064	danilo money	danilomoney@gmail.com	19997988449	pending	2025-04-11 00:18:19.292722+00	2025-04-11 00:18:19.292722+00
-fed0801f-68ee-4cc4-8f0f-7af673c2d766	\N	aa8cf527-51ce-4ce0-bd2e-3b523b85b064	marcos abreu	marcosabreu@gmail.com	11991012424	pending	2025-04-11 03:45:53.8392+00	2025-04-11 03:45:53.8392+00
-21d222ca-7f76-4fdb-a188-0d916796e128	\N	aa8cf527-51ce-4ce0-bd2e-3b523b85b064	dan sz	dan@6g6.com.br	19996982122	pending	2025-04-11 06:13:01.953549+00	2025-04-11 06:13:01.953549+00
-5eea787d-963b-4fbe-b320-67e44ff59ea4	8bcc430c-6af1-4958-b406-18d189494546	22258ace-9312-44ce-9019-8e46eb5fb746	daniela pedroza	daniela-pedroza@tuamaeaquelaursa.com	11947765478	pending	2025-04-18 04:35:49.364402+00	2025-04-18 04:35:49.364402+00
-6c532465-288d-4271-b841-f1ef5cc67fa8	f9f492a7-c906-458e-981c-e17b6fe811a9	43a5e583-cba7-4d56-886f-cf550a37a3fe	daniela pedrosa	daniela-pedrof@tuamaeaquelaursa.com	11947785421	pending	2025-04-18 04:37:13.648983+00	2025-04-18 04:37:13.648983+00
-066b0bdc-a12a-48ff-8f7c-bbbd158d0529	0740b370-aed7-4bd6-a59c-8f1af4d628b0	\N	MARCELO RAMOS DA SILVA	admin@mc.com	5356766655	pending	2025-04-18 17:24:36.22043+00	2025-04-18 17:24:36.22043+00
-a8dc595e-185e-4e59-8555-6de4158607bc	7c8f8066-c786-4d5c-8d19-f49966f58a8c	aa8cf527-51ce-4ce0-bd2e-3b523b85b064	emilio cabral	emiliocabral@tuamaeaquelaursa.com	19978854875	pending	2025-04-18 18:10:31.800227+00	2025-04-18 18:44:32.783398+00
-17266cda-7ee4-423c-9860-2f8f8bb282b3	49fe2dff-9e9d-47d9-9650-9555a5d06af8	aa8cf527-51ce-4ce0-bd2e-3b523b85b064	Ballena freitas	ballenafreitas@gmail.com	1947775241	pending	2025-04-19 00:37:57.676942+00	2025-04-19 00:37:57.676942+00
-fb28d6c7-ef36-4bb2-b684-e4057bc79a9b	d3eeebf8-2d13-4f36-9102-f66b127eaab4	cec778be-59cc-440d-a56a-ca257b2632f0	gabriela fretisa	gabrielafreits@gmail.com	119855485632	pending	2025-04-19 01:37:42.702636+00	2025-04-19 01:37:42.702636+00
-82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	50727bff-5de6-4390-afe9-b7b0e31be52e	43a5e583-cba7-4d56-886f-cf550a37a3fe	artoba fio	artobafio@tuamaeaquelaursa.com	17997977126	pending	2025-04-19 01:37:51.333643+00	2025-04-19 01:37:51.333643+00
+COPY "public"."enrollments" ("id", "student_id", "course_id", "full_name", "email", "phone", "status", "created_at", "updated_at", "transfer_reason", "is_renewal", "original_enrollment_id", "payment_status", "payment_session_id") FROM stdin;
+bc123317-ab59-4cb8-8fce-a76775a1ddbe	\N	22258ace-9312-44ce-9019-8e46eb5fb746	josiane souza cabral x	4463orangex@gmail.com	19997988222	pending	2025-04-10 22:50:46.3407+00	2025-04-10 22:50:46.3407+00	\N	f	\N	pending	\N
+62f68681-6357-42cf-8909-7973f723746f	\N	aa8cf527-51ce-4ce0-bd2e-3b523b85b064	danilo money	danilomoney@gmail.com	19997988449	pending	2025-04-11 00:18:19.292722+00	2025-04-11 00:18:19.292722+00	\N	f	\N	pending	\N
+fed0801f-68ee-4cc4-8f0f-7af673c2d766	\N	aa8cf527-51ce-4ce0-bd2e-3b523b85b064	marcos abreu	marcosabreu@gmail.com	11991012424	pending	2025-04-11 03:45:53.8392+00	2025-04-11 03:45:53.8392+00	\N	f	\N	pending	\N
+21d222ca-7f76-4fdb-a188-0d916796e128	\N	aa8cf527-51ce-4ce0-bd2e-3b523b85b064	dan sz	dan@6g6.com.br	19996982122	pending	2025-04-11 06:13:01.953549+00	2025-04-11 06:13:01.953549+00	\N	f	\N	pending	\N
+5eea787d-963b-4fbe-b320-67e44ff59ea4	8bcc430c-6af1-4958-b406-18d189494546	22258ace-9312-44ce-9019-8e46eb5fb746	daniela pedroza	daniela-pedroza@tuamaeaquelaursa.com	11947765478	pending	2025-04-18 04:35:49.364402+00	2025-04-18 04:35:49.364402+00	\N	f	\N	pending	\N
+6c532465-288d-4271-b841-f1ef5cc67fa8	f9f492a7-c906-458e-981c-e17b6fe811a9	43a5e583-cba7-4d56-886f-cf550a37a3fe	daniela pedrosa	daniela-pedrof@tuamaeaquelaursa.com	11947785421	pending	2025-04-18 04:37:13.648983+00	2025-04-18 04:37:13.648983+00	\N	f	\N	pending	\N
+066b0bdc-a12a-48ff-8f7c-bbbd158d0529	0740b370-aed7-4bd6-a59c-8f1af4d628b0	\N	MARCELO RAMOS DA SILVA	admin@mc.com	5356766655	pending	2025-04-18 17:24:36.22043+00	2025-04-18 17:24:36.22043+00	\N	f	\N	pending	\N
+a8dc595e-185e-4e59-8555-6de4158607bc	7c8f8066-c786-4d5c-8d19-f49966f58a8c	aa8cf527-51ce-4ce0-bd2e-3b523b85b064	emilio cabral	emiliocabral@tuamaeaquelaursa.com	19978854875	pending	2025-04-18 18:10:31.800227+00	2025-04-18 18:44:32.783398+00	\N	f	\N	pending	\N
+17266cda-7ee4-423c-9860-2f8f8bb282b3	49fe2dff-9e9d-47d9-9650-9555a5d06af8	aa8cf527-51ce-4ce0-bd2e-3b523b85b064	Ballena freitas	ballenafreitas@gmail.com	1947775241	pending	2025-04-19 00:37:57.676942+00	2025-04-19 00:37:57.676942+00	\N	f	\N	pending	\N
+fb28d6c7-ef36-4bb2-b684-e4057bc79a9b	d3eeebf8-2d13-4f36-9102-f66b127eaab4	cec778be-59cc-440d-a56a-ca257b2632f0	gabriela fretisa	gabrielafreits@gmail.com	119855485632	pending	2025-04-19 01:37:42.702636+00	2025-04-19 01:37:42.702636+00	\N	f	\N	pending	\N
+82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	50727bff-5de6-4390-afe9-b7b0e31be52e	43a5e583-cba7-4d56-886f-cf550a37a3fe	artoba fio	artobafio@tuamaeaquelaursa.com	17997977126	pending	2025-04-19 01:37:51.333643+00	2025-04-19 01:37:51.333643+00	\N	f	\N	pending	\N
+c8f97b35-73ff-425c-843c-8c58c0edd03d	44cbf295-1ebd-4fb6-bff6-f038588f0523	aa8cf527-51ce-4ce0-bd2e-3b523b85b064	gabriel monteiro	gabrielmonteiro@gmail.com	119478852032	pending	2025-04-19 15:16:08.397242+00	2025-04-19 15:16:08.397242+00	\N	f	\N	pending	\N
 \.
 
 
@@ -392,6 +472,14 @@ d69abb69-3fd6-4a94-9ac2-11c0c93f669d	Modalidade	select	t	t	2025-04-10 20:27:08.9
 
 
 --
+-- Data for Name: integration_configs; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."integration_configs" ("id", "name", "provider", "config_data", "is_active", "created_at", "updated_at", "created_by") FROM stdin;
+\.
+
+
+--
 -- Data for Name: messages; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -404,6 +492,47 @@ COPY "public"."messages" ("id", "sender_id", "recipient_id", "content", "attachm
 --
 
 COPY "public"."notifications" ("id", "user_id", "title", "message", "type", "read", "created_at", "metadata", "action_url", "action_text", "deleted_at") FROM stdin;
+\.
+
+
+--
+-- Data for Name: student_documents; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."student_documents" ("id", "enrollment_id", "document_type", "file_path", "status", "created_at", "updated_at", "rejection_reason", "ocr_data", "validation_result", "encryption_metadata", "compliance_status", "verification_score") FROM stdin;
+afe38ffd-66d4-4fa3-8eb4-61d52ddcd402	62f68681-6357-42cf-8909-7973f723746f	f02db3bc-a03e-4eea-847b-a4104a20cb95	b5fa48d3-9784-4fb3-8c27-313173de9ee8/62f68681-6357-42cf-8909-7973f723746f/f02db3bc-a03e-4eea-847b-a4104a20cb95-c3e63a6d-d6f4-4fe7-8d03-003f349be394.PNG	approved	2025-04-11 00:18:26.169195+00	2025-04-11 00:21:26.382366+00	\N	\N	\N	\N	pending	0
+5f2c2c5a-2c00-44ad-bcde-0c650a58b2fd	62f68681-6357-42cf-8909-7973f723746f	7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	b5fa48d3-9784-4fb3-8c27-313173de9ee8/62f68681-6357-42cf-8909-7973f723746f/7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c-5476cde5-77fc-4232-b8d0-00add19c44a6.PNG	approved	2025-04-11 00:18:31.731966+00	2025-04-11 00:21:27.60805+00	\N	\N	\N	\N	pending	0
+e66b8bee-2640-44d0-898e-e75b5dd9101f	62f68681-6357-42cf-8909-7973f723746f	6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	b5fa48d3-9784-4fb3-8c27-313173de9ee8/62f68681-6357-42cf-8909-7973f723746f/6fb1daae-f3e6-47ae-a810-ed977fc3f7ca-786c3e6a-3310-438b-b990-e3195052414e.PNG	approved	2025-04-11 00:18:35.727538+00	2025-04-11 00:21:29.223618+00	\N	\N	\N	\N	pending	0
+55ad016e-7c7b-4ceb-a525-934c8b1edc68	62f68681-6357-42cf-8909-7973f723746f	a198457e-3315-4c35-8266-6a0186240100	b5fa48d3-9784-4fb3-8c27-313173de9ee8/62f68681-6357-42cf-8909-7973f723746f/a198457e-3315-4c35-8266-6a0186240100-ed274de1-330f-453b-8582-392bcfc3fad2.PNG	approved	2025-04-11 00:18:40.24445+00	2025-04-11 00:21:30.565548+00	\N	\N	\N	\N	pending	0
+1e71d892-4533-4411-aebe-26abe6ce20a5	62f68681-6357-42cf-8909-7973f723746f	3be7e852-88a3-4520-a11d-3a1bc6787af6	b5fa48d3-9784-4fb3-8c27-313173de9ee8/62f68681-6357-42cf-8909-7973f723746f/3be7e852-88a3-4520-a11d-3a1bc6787af6-fd836edf-ceed-41b9-a093-cf0b6605979f.PNG	approved	2025-04-11 00:18:44.68522+00	2025-04-11 00:21:31.466611+00	\N	\N	\N	\N	pending	0
+03fad79c-07de-470c-96fa-8fc194749488	fed0801f-68ee-4cc4-8f0f-7af673c2d766	f02db3bc-a03e-4eea-847b-a4104a20cb95	a71577f4-81a8-4645-bb67-358bc7a17227/fed0801f-68ee-4cc4-8f0f-7af673c2d766/f02db3bc-a03e-4eea-847b-a4104a20cb95-02a5d94e-3cb7-4832-8603-c59419983a34.jpeg	approved	2025-04-11 03:46:03.20615+00	2025-04-11 04:38:48.001669+00	\N	\N	\N	\N	pending	0
+89dadb02-14c6-46db-b48c-0ebb91efbd28	fed0801f-68ee-4cc4-8f0f-7af673c2d766	7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	a71577f4-81a8-4645-bb67-358bc7a17227/fed0801f-68ee-4cc4-8f0f-7af673c2d766/7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c-86afe4bf-9ee3-4351-88e3-caf9e42e4d18.jpeg	approved	2025-04-11 03:46:06.804114+00	2025-04-11 04:38:48.887208+00	\N	\N	\N	\N	pending	0
+6a0897b1-6169-42ff-a409-3d8e8485d602	fed0801f-68ee-4cc4-8f0f-7af673c2d766	6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	a71577f4-81a8-4645-bb67-358bc7a17227/fed0801f-68ee-4cc4-8f0f-7af673c2d766/6fb1daae-f3e6-47ae-a810-ed977fc3f7ca-90cd60b0-70e0-44de-8588-3e856162b8f6.jpeg	approved	2025-04-11 03:46:11.238683+00	2025-04-11 04:38:49.741161+00	\N	\N	\N	\N	pending	0
+60cbf9a7-80ce-48f1-8f9c-3478c0b051c4	fed0801f-68ee-4cc4-8f0f-7af673c2d766	a198457e-3315-4c35-8266-6a0186240100	a71577f4-81a8-4645-bb67-358bc7a17227/fed0801f-68ee-4cc4-8f0f-7af673c2d766/a198457e-3315-4c35-8266-6a0186240100-844bf713-d0c2-4371-be81-8d666ac8bf00.jpeg	approved	2025-04-11 03:46:15.370343+00	2025-04-11 04:38:52.819592+00	\N	\N	\N	\N	pending	0
+72ac69bb-0417-4135-85a3-eab7a1142335	fed0801f-68ee-4cc4-8f0f-7af673c2d766	3be7e852-88a3-4520-a11d-3a1bc6787af6	a71577f4-81a8-4645-bb67-358bc7a17227/fed0801f-68ee-4cc4-8f0f-7af673c2d766/3be7e852-88a3-4520-a11d-3a1bc6787af6-5637dca1-e5c9-40fb-93a8-03c380ec1ee1.jpeg	approved	2025-04-11 03:46:20.849507+00	2025-04-11 04:38:53.95872+00	\N	\N	\N	\N	pending	0
+82942a8c-716e-4150-8ad9-aaf4e3433c0e	21d222ca-7f76-4fdb-a188-0d916796e128	f02db3bc-a03e-4eea-847b-a4104a20cb95	660f7c55-d756-4732-bdf9-d6a813b0fb97/21d222ca-7f76-4fdb-a188-0d916796e128/f02db3bc-a03e-4eea-847b-a4104a20cb95-8490009d-2934-4a9d-a69f-f0a2bf0ae66e.jpeg	approved	2025-04-11 06:13:09.551998+00	2025-04-17 20:34:15.57188+00	\N	\N	\N	\N	pending	0
+05e086ee-fc0a-4926-8cc5-9701ceaf661e	21d222ca-7f76-4fdb-a188-0d916796e128	7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	660f7c55-d756-4732-bdf9-d6a813b0fb97/21d222ca-7f76-4fdb-a188-0d916796e128/7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c-fab809db-73ee-4aa0-a7fd-8ae3cc05bc4e.jpeg	approved	2025-04-11 06:13:12.692778+00	2025-04-17 20:34:19.740097+00	\N	\N	\N	\N	pending	0
+da654765-24f7-4028-8eee-419c6c254d09	21d222ca-7f76-4fdb-a188-0d916796e128	6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	660f7c55-d756-4732-bdf9-d6a813b0fb97/21d222ca-7f76-4fdb-a188-0d916796e128/6fb1daae-f3e6-47ae-a810-ed977fc3f7ca-3ac24766-1c88-4802-99af-f68aae9a11e4.jpeg	approved	2025-04-11 06:13:17.851315+00	2025-04-17 20:34:20.618182+00	\N	\N	\N	\N	pending	0
+bd9d34f9-d749-47df-acbb-eed942bf5522	21d222ca-7f76-4fdb-a188-0d916796e128	a198457e-3315-4c35-8266-6a0186240100	660f7c55-d756-4732-bdf9-d6a813b0fb97/21d222ca-7f76-4fdb-a188-0d916796e128/a198457e-3315-4c35-8266-6a0186240100-8dbaad84-bb07-4089-8265-fb5d64335070.jpeg	approved	2025-04-11 06:13:21.296441+00	2025-04-17 20:34:22.071421+00	\N	\N	\N	\N	pending	0
+19ec7108-a93b-468d-9fa8-892eb396c208	21d222ca-7f76-4fdb-a188-0d916796e128	3be7e852-88a3-4520-a11d-3a1bc6787af6	660f7c55-d756-4732-bdf9-d6a813b0fb97/21d222ca-7f76-4fdb-a188-0d916796e128/3be7e852-88a3-4520-a11d-3a1bc6787af6-5efc17ab-ec1f-4c39-925c-1a9fe1eb7a3c.jpeg	approved	2025-04-11 06:13:24.540181+00	2025-04-17 20:34:22.748817+00	\N	\N	\N	\N	pending	0
+ae0c9b4b-789c-484e-b5fb-e37abeac858b	a8dc595e-185e-4e59-8555-6de4158607bc	f02db3bc-a03e-4eea-847b-a4104a20cb95	7c8f8066-c786-4d5c-8d19-f49966f58a8c/a8dc595e-185e-4e59-8555-6de4158607bc/f02db3bc-a03e-4eea-847b-a4104a20cb95-efcd5ea4-2deb-48d3-8bc2-336cb786b441.jpeg	approved	2025-04-18 18:10:56.314695+00	2025-04-18 18:37:49.48736+00	\N	\N	\N	\N	pending	0
+66c65b1b-8497-4817-83ab-0efa30cff0d8	a8dc595e-185e-4e59-8555-6de4158607bc	7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	7c8f8066-c786-4d5c-8d19-f49966f58a8c/a8dc595e-185e-4e59-8555-6de4158607bc/7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c-914275f0-8ffd-4302-8fb7-27c58edc63dd.jpeg	approved	2025-04-18 18:10:59.197277+00	2025-04-18 18:37:50.403183+00	\N	\N	\N	\N	pending	0
+ea8cb166-6aa3-4c27-856a-c51c233f773d	a8dc595e-185e-4e59-8555-6de4158607bc	6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	7c8f8066-c786-4d5c-8d19-f49966f58a8c/a8dc595e-185e-4e59-8555-6de4158607bc/6fb1daae-f3e6-47ae-a810-ed977fc3f7ca-f3da15b6-3c33-4976-b7a6-5511dc0ec539.jpeg	approved	2025-04-18 18:11:01.923574+00	2025-04-18 18:37:51.3221+00	\N	\N	\N	\N	pending	0
+00452757-f7a5-4fb5-9d5d-646a843f4733	a8dc595e-185e-4e59-8555-6de4158607bc	3be7e852-88a3-4520-a11d-3a1bc6787af6	7c8f8066-c786-4d5c-8d19-f49966f58a8c/a8dc595e-185e-4e59-8555-6de4158607bc/3be7e852-88a3-4520-a11d-3a1bc6787af6-303f0d73-d9c2-4925-b6bf-699a8959d630.jpeg	approved	2025-04-18 18:11:07.023341+00	2025-04-18 18:37:56.981818+00	\N	\N	\N	\N	pending	0
+5b0fb567-080a-4138-ab3a-4c7bd4986cf0	a8dc595e-185e-4e59-8555-6de4158607bc	a198457e-3315-4c35-8266-6a0186240100	7c8f8066-c786-4d5c-8d19-f49966f58a8c/a8dc595e-185e-4e59-8555-6de4158607bc/a198457e-3315-4c35-8266-6a0186240100-308d4e50-6f77-4be0-96c6-1342c4ea6eaa.jpeg	approved	2025-04-18 18:11:04.358734+00	2025-04-18 18:37:57.206422+00	\N	\N	\N	\N	pending	0
+b06aef9b-5cdd-4914-8e99-7a8422fa2af8	82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	f02db3bc-a03e-4eea-847b-a4104a20cb95	50727bff-5de6-4390-afe9-b7b0e31be52e/82e9d2ab-0c63-4251-8b83-c8e3a397a1ce/f02db3bc-a03e-4eea-847b-a4104a20cb95-a5868374-f0fc-4098-9508-7efbfac52fc3.png	pending	2025-04-19 01:38:02.086318+00	2025-04-19 01:38:02.086318+00	\N	\N	\N	\N	pending	0
+c8933e33-c671-435f-bdc0-6469cdf5c888	82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	50727bff-5de6-4390-afe9-b7b0e31be52e/82e9d2ab-0c63-4251-8b83-c8e3a397a1ce/7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c-b5050098-72d2-43af-af8a-93236ec0609a.png	pending	2025-04-19 01:38:07.616625+00	2025-04-19 01:38:07.616625+00	\N	\N	\N	\N	pending	0
+ec28abc0-c8c4-40b6-98c9-395baf78f2f6	82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	50727bff-5de6-4390-afe9-b7b0e31be52e/82e9d2ab-0c63-4251-8b83-c8e3a397a1ce/6fb1daae-f3e6-47ae-a810-ed977fc3f7ca-b7e5f7a5-936a-4e7b-ab0a-7e79168c800d.png	pending	2025-04-19 01:38:10.945926+00	2025-04-19 01:38:10.945926+00	\N	\N	\N	\N	pending	0
+ee109200-0ae9-40ec-920b-df802db40ab3	82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	a198457e-3315-4c35-8266-6a0186240100	50727bff-5de6-4390-afe9-b7b0e31be52e/82e9d2ab-0c63-4251-8b83-c8e3a397a1ce/a198457e-3315-4c35-8266-6a0186240100-01cc18b3-43ad-4a89-9038-55e081c81ede.png	pending	2025-04-19 01:38:14.240127+00	2025-04-19 01:38:14.240127+00	\N	\N	\N	\N	pending	0
+f60c93ac-546f-4481-8420-7f1eae965376	82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	3be7e852-88a3-4520-a11d-3a1bc6787af6	50727bff-5de6-4390-afe9-b7b0e31be52e/82e9d2ab-0c63-4251-8b83-c8e3a397a1ce/3be7e852-88a3-4520-a11d-3a1bc6787af6-fa8e60c1-989f-4a60-bb4d-71e418e781ee.png	approved	2025-04-19 01:38:18.341654+00	2025-04-19 05:03:01.81823+00	\N	\N	\N	\N	pending	0
+\.
+
+
+--
+-- Data for Name: ocr_performance_metrics; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."ocr_performance_metrics" ("id", "document_id", "processing_time_ms", "confidence_score", "error_rate", "characters_processed", "processor_used", "created_at") FROM stdin;
 \.
 
 
@@ -440,52 +569,23 @@ f9f492a7-c906-458e-981c-e17b6fe811a9	daniela	pedrosa	student	2025-04-18 04:37:13
 49fe2dff-9e9d-47d9-9650-9555a5d06af8	Ballena	freitas	student	2025-04-19 00:37:57.643586+00	2025-04-19 00:37:57.643586+00
 d3eeebf8-2d13-4f36-9102-f66b127eaab4	gabriela	fretisa	student	2025-04-19 01:37:42.673134+00	2025-04-19 01:37:42.673134+00
 50727bff-5de6-4390-afe9-b7b0e31be52e	artoba	fio	student	2025-04-19 01:37:51.304356+00	2025-04-19 01:37:51.304356+00
+44cbf295-1ebd-4fb6-bff6-f038588f0523	gabriel	monteiro	student	2025-04-19 15:16:08.353638+00	2025-04-19 15:16:08.353638+00
 \.
 
 
 --
--- Data for Name: required_documents; Type: TABLE DATA; Schema: public; Owner: postgres
+-- Data for Name: receipts; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."required_documents" ("id", "name", "is_required", "is_active", "created_at", "updated_at") FROM stdin;
-f02db3bc-a03e-4eea-847b-a4104a20cb95	RG	t	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00
-7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	CPF	t	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00
-6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	Comprovante de Residência	t	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00
-a198457e-3315-4c35-8266-6a0186240100	Histórico Escolar	t	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00
-3be7e852-88a3-4520-a11d-3a1bc6787af6	Foto 3x4	t	t	2025-04-10 20:27:08.930749+00	2025-04-10 20:27:08.930749+00
+COPY "public"."receipts" ("id", "payment_id", "receipt_number", "receipt_url", "receipt_data", "pdf_generated", "issued_at", "updated_at") FROM stdin;
 \.
 
 
 --
--- Data for Name: student_documents; Type: TABLE DATA; Schema: public; Owner: postgres
+-- Data for Name: scheduled_notifications; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."student_documents" ("id", "enrollment_id", "document_type", "file_path", "status", "created_at", "updated_at", "rejection_reason", "ocr_data", "validation_result") FROM stdin;
-afe38ffd-66d4-4fa3-8eb4-61d52ddcd402	62f68681-6357-42cf-8909-7973f723746f	f02db3bc-a03e-4eea-847b-a4104a20cb95	b5fa48d3-9784-4fb3-8c27-313173de9ee8/62f68681-6357-42cf-8909-7973f723746f/f02db3bc-a03e-4eea-847b-a4104a20cb95-c3e63a6d-d6f4-4fe7-8d03-003f349be394.PNG	approved	2025-04-11 00:18:26.169195+00	2025-04-11 00:21:26.382366+00	\N	\N	\N
-5f2c2c5a-2c00-44ad-bcde-0c650a58b2fd	62f68681-6357-42cf-8909-7973f723746f	7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	b5fa48d3-9784-4fb3-8c27-313173de9ee8/62f68681-6357-42cf-8909-7973f723746f/7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c-5476cde5-77fc-4232-b8d0-00add19c44a6.PNG	approved	2025-04-11 00:18:31.731966+00	2025-04-11 00:21:27.60805+00	\N	\N	\N
-e66b8bee-2640-44d0-898e-e75b5dd9101f	62f68681-6357-42cf-8909-7973f723746f	6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	b5fa48d3-9784-4fb3-8c27-313173de9ee8/62f68681-6357-42cf-8909-7973f723746f/6fb1daae-f3e6-47ae-a810-ed977fc3f7ca-786c3e6a-3310-438b-b990-e3195052414e.PNG	approved	2025-04-11 00:18:35.727538+00	2025-04-11 00:21:29.223618+00	\N	\N	\N
-55ad016e-7c7b-4ceb-a525-934c8b1edc68	62f68681-6357-42cf-8909-7973f723746f	a198457e-3315-4c35-8266-6a0186240100	b5fa48d3-9784-4fb3-8c27-313173de9ee8/62f68681-6357-42cf-8909-7973f723746f/a198457e-3315-4c35-8266-6a0186240100-ed274de1-330f-453b-8582-392bcfc3fad2.PNG	approved	2025-04-11 00:18:40.24445+00	2025-04-11 00:21:30.565548+00	\N	\N	\N
-1e71d892-4533-4411-aebe-26abe6ce20a5	62f68681-6357-42cf-8909-7973f723746f	3be7e852-88a3-4520-a11d-3a1bc6787af6	b5fa48d3-9784-4fb3-8c27-313173de9ee8/62f68681-6357-42cf-8909-7973f723746f/3be7e852-88a3-4520-a11d-3a1bc6787af6-fd836edf-ceed-41b9-a093-cf0b6605979f.PNG	approved	2025-04-11 00:18:44.68522+00	2025-04-11 00:21:31.466611+00	\N	\N	\N
-03fad79c-07de-470c-96fa-8fc194749488	fed0801f-68ee-4cc4-8f0f-7af673c2d766	f02db3bc-a03e-4eea-847b-a4104a20cb95	a71577f4-81a8-4645-bb67-358bc7a17227/fed0801f-68ee-4cc4-8f0f-7af673c2d766/f02db3bc-a03e-4eea-847b-a4104a20cb95-02a5d94e-3cb7-4832-8603-c59419983a34.jpeg	approved	2025-04-11 03:46:03.20615+00	2025-04-11 04:38:48.001669+00	\N	\N	\N
-89dadb02-14c6-46db-b48c-0ebb91efbd28	fed0801f-68ee-4cc4-8f0f-7af673c2d766	7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	a71577f4-81a8-4645-bb67-358bc7a17227/fed0801f-68ee-4cc4-8f0f-7af673c2d766/7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c-86afe4bf-9ee3-4351-88e3-caf9e42e4d18.jpeg	approved	2025-04-11 03:46:06.804114+00	2025-04-11 04:38:48.887208+00	\N	\N	\N
-6a0897b1-6169-42ff-a409-3d8e8485d602	fed0801f-68ee-4cc4-8f0f-7af673c2d766	6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	a71577f4-81a8-4645-bb67-358bc7a17227/fed0801f-68ee-4cc4-8f0f-7af673c2d766/6fb1daae-f3e6-47ae-a810-ed977fc3f7ca-90cd60b0-70e0-44de-8588-3e856162b8f6.jpeg	approved	2025-04-11 03:46:11.238683+00	2025-04-11 04:38:49.741161+00	\N	\N	\N
-60cbf9a7-80ce-48f1-8f9c-3478c0b051c4	fed0801f-68ee-4cc4-8f0f-7af673c2d766	a198457e-3315-4c35-8266-6a0186240100	a71577f4-81a8-4645-bb67-358bc7a17227/fed0801f-68ee-4cc4-8f0f-7af673c2d766/a198457e-3315-4c35-8266-6a0186240100-844bf713-d0c2-4371-be81-8d666ac8bf00.jpeg	approved	2025-04-11 03:46:15.370343+00	2025-04-11 04:38:52.819592+00	\N	\N	\N
-72ac69bb-0417-4135-85a3-eab7a1142335	fed0801f-68ee-4cc4-8f0f-7af673c2d766	3be7e852-88a3-4520-a11d-3a1bc6787af6	a71577f4-81a8-4645-bb67-358bc7a17227/fed0801f-68ee-4cc4-8f0f-7af673c2d766/3be7e852-88a3-4520-a11d-3a1bc6787af6-5637dca1-e5c9-40fb-93a8-03c380ec1ee1.jpeg	approved	2025-04-11 03:46:20.849507+00	2025-04-11 04:38:53.95872+00	\N	\N	\N
-82942a8c-716e-4150-8ad9-aaf4e3433c0e	21d222ca-7f76-4fdb-a188-0d916796e128	f02db3bc-a03e-4eea-847b-a4104a20cb95	660f7c55-d756-4732-bdf9-d6a813b0fb97/21d222ca-7f76-4fdb-a188-0d916796e128/f02db3bc-a03e-4eea-847b-a4104a20cb95-8490009d-2934-4a9d-a69f-f0a2bf0ae66e.jpeg	approved	2025-04-11 06:13:09.551998+00	2025-04-17 20:34:15.57188+00	\N	\N	\N
-05e086ee-fc0a-4926-8cc5-9701ceaf661e	21d222ca-7f76-4fdb-a188-0d916796e128	7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	660f7c55-d756-4732-bdf9-d6a813b0fb97/21d222ca-7f76-4fdb-a188-0d916796e128/7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c-fab809db-73ee-4aa0-a7fd-8ae3cc05bc4e.jpeg	approved	2025-04-11 06:13:12.692778+00	2025-04-17 20:34:19.740097+00	\N	\N	\N
-da654765-24f7-4028-8eee-419c6c254d09	21d222ca-7f76-4fdb-a188-0d916796e128	6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	660f7c55-d756-4732-bdf9-d6a813b0fb97/21d222ca-7f76-4fdb-a188-0d916796e128/6fb1daae-f3e6-47ae-a810-ed977fc3f7ca-3ac24766-1c88-4802-99af-f68aae9a11e4.jpeg	approved	2025-04-11 06:13:17.851315+00	2025-04-17 20:34:20.618182+00	\N	\N	\N
-bd9d34f9-d749-47df-acbb-eed942bf5522	21d222ca-7f76-4fdb-a188-0d916796e128	a198457e-3315-4c35-8266-6a0186240100	660f7c55-d756-4732-bdf9-d6a813b0fb97/21d222ca-7f76-4fdb-a188-0d916796e128/a198457e-3315-4c35-8266-6a0186240100-8dbaad84-bb07-4089-8265-fb5d64335070.jpeg	approved	2025-04-11 06:13:21.296441+00	2025-04-17 20:34:22.071421+00	\N	\N	\N
-19ec7108-a93b-468d-9fa8-892eb396c208	21d222ca-7f76-4fdb-a188-0d916796e128	3be7e852-88a3-4520-a11d-3a1bc6787af6	660f7c55-d756-4732-bdf9-d6a813b0fb97/21d222ca-7f76-4fdb-a188-0d916796e128/3be7e852-88a3-4520-a11d-3a1bc6787af6-5efc17ab-ec1f-4c39-925c-1a9fe1eb7a3c.jpeg	approved	2025-04-11 06:13:24.540181+00	2025-04-17 20:34:22.748817+00	\N	\N	\N
-ae0c9b4b-789c-484e-b5fb-e37abeac858b	a8dc595e-185e-4e59-8555-6de4158607bc	f02db3bc-a03e-4eea-847b-a4104a20cb95	7c8f8066-c786-4d5c-8d19-f49966f58a8c/a8dc595e-185e-4e59-8555-6de4158607bc/f02db3bc-a03e-4eea-847b-a4104a20cb95-efcd5ea4-2deb-48d3-8bc2-336cb786b441.jpeg	approved	2025-04-18 18:10:56.314695+00	2025-04-18 18:37:49.48736+00	\N	\N	\N
-66c65b1b-8497-4817-83ab-0efa30cff0d8	a8dc595e-185e-4e59-8555-6de4158607bc	7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	7c8f8066-c786-4d5c-8d19-f49966f58a8c/a8dc595e-185e-4e59-8555-6de4158607bc/7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c-914275f0-8ffd-4302-8fb7-27c58edc63dd.jpeg	approved	2025-04-18 18:10:59.197277+00	2025-04-18 18:37:50.403183+00	\N	\N	\N
-ea8cb166-6aa3-4c27-856a-c51c233f773d	a8dc595e-185e-4e59-8555-6de4158607bc	6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	7c8f8066-c786-4d5c-8d19-f49966f58a8c/a8dc595e-185e-4e59-8555-6de4158607bc/6fb1daae-f3e6-47ae-a810-ed977fc3f7ca-f3da15b6-3c33-4976-b7a6-5511dc0ec539.jpeg	approved	2025-04-18 18:11:01.923574+00	2025-04-18 18:37:51.3221+00	\N	\N	\N
-00452757-f7a5-4fb5-9d5d-646a843f4733	a8dc595e-185e-4e59-8555-6de4158607bc	3be7e852-88a3-4520-a11d-3a1bc6787af6	7c8f8066-c786-4d5c-8d19-f49966f58a8c/a8dc595e-185e-4e59-8555-6de4158607bc/3be7e852-88a3-4520-a11d-3a1bc6787af6-303f0d73-d9c2-4925-b6bf-699a8959d630.jpeg	approved	2025-04-18 18:11:07.023341+00	2025-04-18 18:37:56.981818+00	\N	\N	\N
-5b0fb567-080a-4138-ab3a-4c7bd4986cf0	a8dc595e-185e-4e59-8555-6de4158607bc	a198457e-3315-4c35-8266-6a0186240100	7c8f8066-c786-4d5c-8d19-f49966f58a8c/a8dc595e-185e-4e59-8555-6de4158607bc/a198457e-3315-4c35-8266-6a0186240100-308d4e50-6f77-4be0-96c6-1342c4ea6eaa.jpeg	approved	2025-04-18 18:11:04.358734+00	2025-04-18 18:37:57.206422+00	\N	\N	\N
-b06aef9b-5cdd-4914-8e99-7a8422fa2af8	82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	f02db3bc-a03e-4eea-847b-a4104a20cb95	50727bff-5de6-4390-afe9-b7b0e31be52e/82e9d2ab-0c63-4251-8b83-c8e3a397a1ce/f02db3bc-a03e-4eea-847b-a4104a20cb95-a5868374-f0fc-4098-9508-7efbfac52fc3.png	pending	2025-04-19 01:38:02.086318+00	2025-04-19 01:38:02.086318+00	\N	\N	\N
-c8933e33-c671-435f-bdc0-6469cdf5c888	82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c	50727bff-5de6-4390-afe9-b7b0e31be52e/82e9d2ab-0c63-4251-8b83-c8e3a397a1ce/7a8e6ac7-dd1f-474c-9b7d-f9a4f4e48c1c-b5050098-72d2-43af-af8a-93236ec0609a.png	pending	2025-04-19 01:38:07.616625+00	2025-04-19 01:38:07.616625+00	\N	\N	\N
-ec28abc0-c8c4-40b6-98c9-395baf78f2f6	82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	6fb1daae-f3e6-47ae-a810-ed977fc3f7ca	50727bff-5de6-4390-afe9-b7b0e31be52e/82e9d2ab-0c63-4251-8b83-c8e3a397a1ce/6fb1daae-f3e6-47ae-a810-ed977fc3f7ca-b7e5f7a5-936a-4e7b-ab0a-7e79168c800d.png	pending	2025-04-19 01:38:10.945926+00	2025-04-19 01:38:10.945926+00	\N	\N	\N
-ee109200-0ae9-40ec-920b-df802db40ab3	82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	a198457e-3315-4c35-8266-6a0186240100	50727bff-5de6-4390-afe9-b7b0e31be52e/82e9d2ab-0c63-4251-8b83-c8e3a397a1ce/a198457e-3315-4c35-8266-6a0186240100-01cc18b3-43ad-4a89-9038-55e081c81ede.png	pending	2025-04-19 01:38:14.240127+00	2025-04-19 01:38:14.240127+00	\N	\N	\N
-f60c93ac-546f-4481-8420-7f1eae965376	82e9d2ab-0c63-4251-8b83-c8e3a397a1ce	3be7e852-88a3-4520-a11d-3a1bc6787af6	50727bff-5de6-4390-afe9-b7b0e31be52e/82e9d2ab-0c63-4251-8b83-c8e3a397a1ce/3be7e852-88a3-4520-a11d-3a1bc6787af6-fa8e60c1-989f-4a60-bb4d-71e418e781ee.png	pending	2025-04-19 01:38:18.341654+00	2025-04-19 01:38:18.341654+00	\N	\N	\N
+COPY "public"."scheduled_notifications" ("id", "title", "message", "type", "scheduled_at", "executed_at", "user_id", "bulk_send", "user_ids", "metadata", "action_url", "action_text", "created_at", "repeat_pattern", "notification_channel", "whatsapp_number", "email") FROM stdin;
 \.
 
 
@@ -498,6 +598,23 @@ d772d934-1213-4917-8222-840944013100	8bcc430c-6af1-4958-b406-18d189494546	daniel
 45b52a02-3334-4bec-ae32-1290cafa0758	0740b370-aed7-4bd6-a59c-8f1af4d628b0	admin@mc.com	\N	f	\N	\N	2025-04-18 17:25:00.601+00	2025-04-18 17:24:37.49593+00
 4030ef9a-9f8a-49c4-95f1-88e7de1f1f5c	7c8f8066-c786-4d5c-8d19-f49966f58a8c	emiliocabral@tuamaeaquelaursa.com	\N	f	\N	\N	2025-04-18 18:18:44.702+00	2025-04-18 18:18:19.126641+00
 1b191cae-2493-463f-8d12-6b67094762a8	00000000-0000-0000-0000-000000000001	admin@sistema.com	cus_S9OwI8HxoLrNhu	t	Premium	2025-05-18 04:02:47+00	2025-04-19 00:08:59.773+00	2025-04-18 04:02:14.614489+00
+83aeddfb-6e58-4c4e-acc4-fc6c0f7caf15	44cbf295-1ebd-4fb6-bff6-f038588f0523	gabrielmonteiro@gmail.com	\N	f	\N	\N	2025-04-19 15:25:52.726+00	2025-04-19 15:25:52.706737+00
+\.
+
+
+--
+-- Data for Name: system_cache; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."system_cache" ("key", "data", "expires_at", "created_at") FROM stdin;
+\.
+
+
+--
+-- Data for Name: system_logs; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."system_logs" ("id", "timestamp", "level", "message", "stack", "context", "user_id", "source", "tags", "resolved", "resolved_at", "resolved_by", "resolution_notes") FROM stdin;
 \.
 
 
@@ -510,10 +627,26 @@ COPY "public"."system_settings" ("id", "institution_name", "institution_logo", "
 
 
 --
+-- Data for Name: user_consent; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."user_consent" ("id", "user_id", "marketing_consent", "analytics_consent", "third_party_consent", "data_processing_consent", "created_at", "updated_at") FROM stdin;
+\.
+
+
+--
 -- Data for Name: user_notification_preferences; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."user_notification_preferences" ("id", "user_id", "email_notifications", "push_notifications", "document_updates", "payment_reminders", "enrollment_updates", "calendar_events", "system_announcements", "created_at", "updated_at") FROM stdin;
+COPY "public"."user_notification_preferences" ("id", "user_id", "email_notifications", "push_notifications", "document_updates", "payment_reminders", "enrollment_updates", "calendar_events", "system_announcements", "created_at", "updated_at", "channels") FROM stdin;
+\.
+
+
+--
+-- Data for Name: user_roles; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."user_roles" ("id", "user_id", "role", "created_at", "created_by", "updated_at") FROM stdin;
 \.
 
 
@@ -588,7 +721,7 @@ COPY "vault"."secrets" ("id", "name", "description", "secret", "key_id", "nonce"
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 63, true);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 74, true);
 
 
 --
