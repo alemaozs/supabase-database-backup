@@ -3,6 +3,7 @@
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
 SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
 SELECT pg_catalog.set_config('search_path', '', false);
@@ -246,7 +247,7 @@ CREATE OR REPLACE VIEW "public"."user_notifications" AS
   WHERE ("notifications"."deleted_at" IS NULL);
 
 
-ALTER TABLE "public"."user_notifications" OWNER TO "postgres";
+ALTER VIEW "public"."user_notifications" OWNER TO "postgres";
 
 
 CREATE OR REPLACE FUNCTION "public"."get_user_notifications"("p_user_id" "uuid", "p_limit" integer DEFAULT 10, "p_offset" integer DEFAULT 0) RETURNS SETOF "public"."user_notifications"
@@ -1887,9 +1888,9 @@ GRANT ALL ON FUNCTION "public"."cancel_scheduled_notification"("p_notification_i
 
 
 
-GRANT ALL ON TABLE "public"."payments" TO "anon";
-GRANT ALL ON TABLE "public"."payments" TO "authenticated";
-GRANT ALL ON TABLE "public"."payments" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."payments" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."payments" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."payments" TO "service_role";
 
 
 
@@ -1912,9 +1913,9 @@ GRANT ALL ON FUNCTION "public"."get_payment_stats"("start_date" timestamp with t
 
 
 
-GRANT ALL ON TABLE "public"."scheduled_notifications" TO "anon";
-GRANT ALL ON TABLE "public"."scheduled_notifications" TO "authenticated";
-GRANT ALL ON TABLE "public"."scheduled_notifications" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."scheduled_notifications" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."scheduled_notifications" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."scheduled_notifications" TO "service_role";
 
 
 
@@ -1924,15 +1925,15 @@ GRANT ALL ON FUNCTION "public"."get_pending_scheduled_notifications"("p_limit" i
 
 
 
-GRANT ALL ON TABLE "public"."notifications" TO "anon";
-GRANT ALL ON TABLE "public"."notifications" TO "authenticated";
-GRANT ALL ON TABLE "public"."notifications" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."notifications" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."notifications" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."notifications" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."user_notifications" TO "anon";
-GRANT ALL ON TABLE "public"."user_notifications" TO "authenticated";
-GRANT ALL ON TABLE "public"."user_notifications" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_notifications" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_notifications" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_notifications" TO "service_role";
 
 
 
@@ -1984,9 +1985,9 @@ GRANT ALL ON FUNCTION "public"."mark_scheduled_notification_executed"("p_notific
 
 
 
-GRANT ALL ON TABLE "public"."system_logs" TO "anon";
-GRANT ALL ON TABLE "public"."system_logs" TO "authenticated";
-GRANT ALL ON TABLE "public"."system_logs" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."system_logs" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."system_logs" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."system_logs" TO "service_role";
 
 
 
@@ -2047,129 +2048,129 @@ GRANT ALL ON FUNCTION "public"."user_accepts_notification_channel"("p_user_id" "
 
 
 
-GRANT ALL ON TABLE "public"."audit_logs" TO "anon";
-GRANT ALL ON TABLE "public"."audit_logs" TO "authenticated";
-GRANT ALL ON TABLE "public"."audit_logs" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."audit_logs" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."audit_logs" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."audit_logs" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."conversation_participants" TO "anon";
-GRANT ALL ON TABLE "public"."conversation_participants" TO "authenticated";
-GRANT ALL ON TABLE "public"."conversation_participants" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."conversation_participants" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."conversation_participants" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."conversation_participants" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."conversations" TO "anon";
-GRANT ALL ON TABLE "public"."conversations" TO "authenticated";
-GRANT ALL ON TABLE "public"."conversations" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."conversations" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."conversations" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."conversations" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."courses" TO "anon";
-GRANT ALL ON TABLE "public"."courses" TO "authenticated";
-GRANT ALL ON TABLE "public"."courses" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."courses" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."courses" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."courses" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."deletion_requests" TO "anon";
-GRANT ALL ON TABLE "public"."deletion_requests" TO "authenticated";
-GRANT ALL ON TABLE "public"."deletion_requests" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."deletion_requests" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."deletion_requests" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."deletion_requests" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."document_validation_config" TO "anon";
-GRANT ALL ON TABLE "public"."document_validation_config" TO "authenticated";
-GRANT ALL ON TABLE "public"."document_validation_config" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."document_validation_config" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."document_validation_config" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."document_validation_config" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."enrollments" TO "anon";
-GRANT ALL ON TABLE "public"."enrollments" TO "authenticated";
-GRANT ALL ON TABLE "public"."enrollments" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."enrollments" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."enrollments" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."enrollments" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."form_fields" TO "anon";
-GRANT ALL ON TABLE "public"."form_fields" TO "authenticated";
-GRANT ALL ON TABLE "public"."form_fields" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."form_fields" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."form_fields" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."form_fields" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."integration_configs" TO "anon";
-GRANT ALL ON TABLE "public"."integration_configs" TO "authenticated";
-GRANT ALL ON TABLE "public"."integration_configs" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."integration_configs" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."integration_configs" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."integration_configs" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."messages" TO "anon";
-GRANT ALL ON TABLE "public"."messages" TO "authenticated";
-GRANT ALL ON TABLE "public"."messages" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."messages" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."messages" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."messages" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."ocr_performance_metrics" TO "anon";
-GRANT ALL ON TABLE "public"."ocr_performance_metrics" TO "authenticated";
-GRANT ALL ON TABLE "public"."ocr_performance_metrics" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."ocr_performance_metrics" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."ocr_performance_metrics" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."ocr_performance_metrics" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."profiles" TO "anon";
-GRANT ALL ON TABLE "public"."profiles" TO "authenticated";
-GRANT ALL ON TABLE "public"."profiles" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."profiles" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."profiles" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."profiles" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."receipts" TO "anon";
-GRANT ALL ON TABLE "public"."receipts" TO "authenticated";
-GRANT ALL ON TABLE "public"."receipts" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."receipts" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."receipts" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."receipts" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."required_documents" TO "anon";
-GRANT ALL ON TABLE "public"."required_documents" TO "authenticated";
-GRANT ALL ON TABLE "public"."required_documents" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."required_documents" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."required_documents" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."required_documents" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."student_documents" TO "anon";
-GRANT ALL ON TABLE "public"."student_documents" TO "authenticated";
-GRANT ALL ON TABLE "public"."student_documents" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."student_documents" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."student_documents" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."student_documents" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."subscribers" TO "anon";
-GRANT ALL ON TABLE "public"."subscribers" TO "authenticated";
-GRANT ALL ON TABLE "public"."subscribers" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."subscribers" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."subscribers" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."subscribers" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."system_cache" TO "anon";
-GRANT ALL ON TABLE "public"."system_cache" TO "authenticated";
-GRANT ALL ON TABLE "public"."system_cache" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."system_cache" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."system_cache" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."system_cache" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."system_settings" TO "anon";
-GRANT ALL ON TABLE "public"."system_settings" TO "authenticated";
-GRANT ALL ON TABLE "public"."system_settings" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."system_settings" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."system_settings" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."system_settings" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."user_consent" TO "anon";
-GRANT ALL ON TABLE "public"."user_consent" TO "authenticated";
-GRANT ALL ON TABLE "public"."user_consent" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_consent" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_consent" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_consent" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."user_notification_preferences" TO "anon";
-GRANT ALL ON TABLE "public"."user_notification_preferences" TO "authenticated";
-GRANT ALL ON TABLE "public"."user_notification_preferences" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_notification_preferences" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_notification_preferences" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_notification_preferences" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."user_roles" TO "anon";
-GRANT ALL ON TABLE "public"."user_roles" TO "authenticated";
-GRANT ALL ON TABLE "public"."user_roles" TO "service_role";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_roles" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_roles" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_roles" TO "service_role";
 
 
 
@@ -2179,30 +2180,30 @@ GRANT ALL ON TABLE "public"."user_roles" TO "service_role";
 
 
 
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON SEQUENCES  TO "postgres";
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON SEQUENCES  TO "anon";
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON SEQUENCES  TO "authenticated";
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON SEQUENCES  TO "service_role";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON SEQUENCES TO "postgres";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON SEQUENCES TO "anon";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON SEQUENCES TO "authenticated";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON SEQUENCES TO "service_role";
 
 
 
 
 
 
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON FUNCTIONS  TO "postgres";
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON FUNCTIONS  TO "anon";
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON FUNCTIONS  TO "authenticated";
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON FUNCTIONS  TO "service_role";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON FUNCTIONS TO "postgres";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON FUNCTIONS TO "anon";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON FUNCTIONS TO "authenticated";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON FUNCTIONS TO "service_role";
 
 
 
 
 
 
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON TABLES  TO "postgres";
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON TABLES  TO "anon";
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON TABLES  TO "authenticated";
-ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON TABLES  TO "service_role";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLES TO "postgres";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLES TO "anon";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLES TO "authenticated";
+ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLES TO "service_role";
 
 
 
