@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict 2h0Xt7EChWhTMwwkezh17P2aKK3iB9klJmANjU37d3Ki7etfmGwxahvvrN8Y6As
+-- \restrict A0SogzMkEFgY05KGnJeULOcqlWC7n13V5uU2Huv3l6YTbcgH2wI7YPb33NENfis
 
 -- Dumped from database version 15.8
 -- Dumped by pg_dump version 17.6
@@ -283,21 +283,29 @@ COPY "auth"."instances" ("id", "uuid", "raw_base_config", "created_at", "updated
 
 
 --
+-- Data for Name: oauth_clients; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
+--
+
+COPY "auth"."oauth_clients" ("id", "client_secret_hash", "registration_type", "redirect_uris", "grant_types", "client_name", "client_uri", "logo_uri", "created_at", "updated_at", "deleted_at", "client_type") FROM stdin;
+\.
+
+
+--
 -- Data for Name: sessions; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-COPY "auth"."sessions" ("id", "user_id", "created_at", "updated_at", "factor_id", "aal", "not_after", "refreshed_at", "user_agent", "ip", "tag") FROM stdin;
-d777e5ca-224a-40d7-8db5-61d5b2c16a73	49fe2dff-9e9d-47d9-9650-9555a5d06af8	2025-04-19 00:37:57.846311+00	2025-04-19 00:37:57.846311+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
-20674af5-946f-48cb-a08b-31f75ffb6fcb	d3eeebf8-2d13-4f36-9102-f66b127eaab4	2025-04-19 01:37:42.859401+00	2025-04-19 01:37:42.859401+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
-948c03c3-6843-41f1-9642-65bf0c770cb5	50727bff-5de6-4390-afe9-b7b0e31be52e	2025-04-19 01:37:51.512132+00	2025-04-19 01:37:51.512132+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N
-bb0622f9-8584-4fb3-a016-ec63ac68b8ee	3037c743-51d0-4e66-944d-4187789d529c	2025-04-10 22:36:27.544609+00	2025-04-10 22:36:27.544609+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N
-b7ef8a90-dda8-48f2-8a4c-3acb2afc5bda	3037c743-51d0-4e66-944d-4187789d529c	2025-04-10 22:38:10.826269+00	2025-04-10 22:38:10.826269+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N
-856ea23b-a819-45c3-a12e-bde35865ee47	44cbf295-1ebd-4fb6-bff6-f038588f0523	2025-04-19 15:16:08.602818+00	2025-04-19 15:16:08.602818+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
-6d04833f-5c78-4c4c-9a03-881bf82b3f74	44cbf295-1ebd-4fb6-bff6-f038588f0523	2025-04-19 15:22:07.753946+00	2025-04-19 15:22:07.753946+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
-f856d376-0eb5-480e-83bc-9ecd4ede4469	00000000-0000-0000-0000-000000000001	2025-05-24 03:06:23.623137+00	2025-06-17 06:13:49.008859+00	\N	aal1	\N	2025-06-17 06:13:49.008786	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	187.180.138.168	\N
-a911a3ff-27bd-4391-962c-19f862cf790d	f9f492a7-c906-458e-981c-e17b6fe811a9	2025-04-18 04:37:13.777099+00	2025-04-18 04:37:13.777099+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	200.185.247.41	\N
-0d7e3108-55bf-44cb-b43e-76a3e64245e6	0740b370-aed7-4bd6-a59c-8f1af4d628b0	2025-04-18 17:24:36.474906+00	2025-04-18 17:24:36.474906+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
-20887685-87a6-4ae8-a76a-67e6a5ace16b	7c8f8066-c786-4d5c-8d19-f49966f58a8c	2025-04-18 18:10:31.968005+00	2025-04-18 18:10:31.968005+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N
+COPY "auth"."sessions" ("id", "user_id", "created_at", "updated_at", "factor_id", "aal", "not_after", "refreshed_at", "user_agent", "ip", "tag", "oauth_client_id") FROM stdin;
+d777e5ca-224a-40d7-8db5-61d5b2c16a73	49fe2dff-9e9d-47d9-9650-9555a5d06af8	2025-04-19 00:37:57.846311+00	2025-04-19 00:37:57.846311+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N	\N
+20674af5-946f-48cb-a08b-31f75ffb6fcb	d3eeebf8-2d13-4f36-9102-f66b127eaab4	2025-04-19 01:37:42.859401+00	2025-04-19 01:37:42.859401+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N	\N
+948c03c3-6843-41f1-9642-65bf0c770cb5	50727bff-5de6-4390-afe9-b7b0e31be52e	2025-04-19 01:37:51.512132+00	2025-04-19 01:37:51.512132+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N	\N
+bb0622f9-8584-4fb3-a016-ec63ac68b8ee	3037c743-51d0-4e66-944d-4187789d529c	2025-04-10 22:36:27.544609+00	2025-04-10 22:36:27.544609+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N	\N
+b7ef8a90-dda8-48f2-8a4c-3acb2afc5bda	3037c743-51d0-4e66-944d-4187789d529c	2025-04-10 22:38:10.826269+00	2025-04-10 22:38:10.826269+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	187.180.138.168	\N	\N
+856ea23b-a819-45c3-a12e-bde35865ee47	44cbf295-1ebd-4fb6-bff6-f038588f0523	2025-04-19 15:16:08.602818+00	2025-04-19 15:16:08.602818+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N	\N
+6d04833f-5c78-4c4c-9a03-881bf82b3f74	44cbf295-1ebd-4fb6-bff6-f038588f0523	2025-04-19 15:22:07.753946+00	2025-04-19 15:22:07.753946+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N	\N
+f856d376-0eb5-480e-83bc-9ecd4ede4469	00000000-0000-0000-0000-000000000001	2025-05-24 03:06:23.623137+00	2025-06-17 06:13:49.008859+00	\N	aal1	\N	2025-06-17 06:13:49.008786	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	187.180.138.168	\N	\N
+a911a3ff-27bd-4391-962c-19f862cf790d	f9f492a7-c906-458e-981c-e17b6fe811a9	2025-04-18 04:37:13.777099+00	2025-04-18 04:37:13.777099+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	200.185.247.41	\N	\N
+0d7e3108-55bf-44cb-b43e-76a3e64245e6	0740b370-aed7-4bd6-a59c-8f1af4d628b0	2025-04-18 17:24:36.474906+00	2025-04-18 17:24:36.474906+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N	\N
+20887685-87a6-4ae8-a76a-67e6a5ace16b	7c8f8066-c786-4d5c-8d19-f49966f58a8c	2025-04-18 18:10:31.968005+00	2025-04-18 18:10:31.968005+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	177.214.143.222	\N	\N
 \.
 
 
@@ -337,10 +345,18 @@ COPY "auth"."mfa_challenges" ("id", "factor_id", "created_at", "verified_at", "i
 
 
 --
--- Data for Name: oauth_clients; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
+-- Data for Name: oauth_authorizations; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-COPY "auth"."oauth_clients" ("id", "client_id", "client_secret_hash", "registration_type", "redirect_uris", "grant_types", "client_name", "client_uri", "logo_uri", "created_at", "updated_at", "deleted_at") FROM stdin;
+COPY "auth"."oauth_authorizations" ("id", "authorization_id", "client_id", "user_id", "redirect_uri", "scope", "state", "resource", "code_challenge", "code_challenge_method", "response_type", "status", "authorization_code", "created_at", "expires_at", "approved_at") FROM stdin;
+\.
+
+
+--
+-- Data for Name: oauth_consents; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
+--
+
+COPY "auth"."oauth_consents" ("id", "user_id", "client_id", "scopes", "granted_at", "revoked_at") FROM stdin;
 \.
 
 
@@ -797,6 +813,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 101, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict 2h0Xt7EChWhTMwwkezh17P2aKK3iB9klJmANjU37d3Ki7etfmGwxahvvrN8Y6As
+-- \unrestrict A0SogzMkEFgY05KGnJeULOcqlWC7n13V5uU2Huv3l6YTbcgH2wI7YPb33NENfis
 
 RESET ALL;
