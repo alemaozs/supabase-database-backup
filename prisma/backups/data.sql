@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict hCp08AuhtfCTZXgoLLR66fnV3VsglTrfoahBKlPbjhCneshlMurRYlOXJkeCKfa
+-- \restrict aGfjJIm8w3cTn6HGXLQaVbMe9hqfzXew0NLUgGmd8c9RyXdZhB1oQhtpszKPist
 
 -- Dumped from database version 15.8
 -- Dumped by pg_dump version 17.6
@@ -207,6 +207,14 @@ COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "
 00000000-0000-0000-0000-000000000000	44ca5267-6b75-40d3-877f-8a77cc343dc2	{"action":"token_revoked","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"token"}	2025-06-17 05:03:32.732239+00	
 00000000-0000-0000-0000-000000000000	e136d557-ead4-467a-a4ff-e33a3c356c36	{"action":"token_refreshed","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"token"}	2025-06-17 06:13:48.994989+00	
 00000000-0000-0000-0000-000000000000	0a5765b7-5381-49c4-b6bf-87ae2e7ad674	{"action":"token_revoked","actor_id":"00000000-0000-0000-0000-000000000001","actor_name":"Admin Sistema","actor_username":"admin@sistema.com","actor_via_sso":false,"log_type":"token"}	2025-06-17 06:13:48.998468+00	
+\.
+
+
+--
+-- Data for Name: custom_oauth_providers; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
+--
+
+COPY "auth"."custom_oauth_providers" ("id", "provider_type", "identifier", "name", "client_id", "client_secret", "acceptable_client_ids", "scopes", "pkce_enabled", "attribute_mapping", "authorization_params", "enabled", "email_optional", "issuer", "discovery_url", "skip_nonce_check", "cached_discovery", "discovery_cached_at", "authorization_url", "token_url", "userinfo_url", "jwks_uri", "created_at", "updated_at") FROM stdin;
 \.
 
 
@@ -821,6 +829,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 101, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict hCp08AuhtfCTZXgoLLR66fnV3VsglTrfoahBKlPbjhCneshlMurRYlOXJkeCKfa
+-- \unrestrict aGfjJIm8w3cTn6HGXLQaVbMe9hqfzXew0NLUgGmd8c9RyXdZhB1oQhtpszKPist
 
 RESET ALL;
